@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputs</title>
+</head>
+<body>
+    <!-- códigos de input de texto, data, cor, etc. -->
+    <form>
+        <label> Name: </label>
+        <input type = "text" maxlength="12" required>
+        <br>
+        <label> Password: </label>
+        <input type = "password" required>
+        <br>
+        <label> Email: </label>
+        <input type = "email" placeholder="exemplo@email.com" required>
+        <br>
+        <label> Color: </label>
+        <input type = "color">
+        <br>
+        <label> Month: </label>
+        <input type = "month">
+        <br>
+        <label> Arquive: </label>
+        <input type = "file">
+        <br>
+        <label> Button: </label>
+        <input type = "button">
+        <br>
+        <label> Number: </label>
+        <input type = "number" min="0" max="100" step="10">
+        <br>
+        <label> Name: </label>
+        <input type = "text" pattern="[A-Z a-z]{4}">
+        <br>
+        <label>Choose an option: </label>
+        <br>
+        <select name="select">
+            <option value="option a">a</option>
+            <br>
+            <option value="option b">b</option>
+            <br>
+            <option value="option c">c</option>
+        </select><br><br><br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
